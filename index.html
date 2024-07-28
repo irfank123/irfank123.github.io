@@ -4,61 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Irfan Karukappadath Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Mohamed Irfan Karukappadath</h1>
-            <p>Computer Science & Economics at NYU</p>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto p-6 text-center">
+            <h1 class="text-4xl font-bold">Mohamed Irfan Karukappadath</h1>
+            <p class="text-lg text-gray-600">Computer Science & Economics at NYU</p>
         </div>
     </header>
-    <nav>
-        <ul class="container">
-            <li><a href="#introduction">Introduction</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
+    <nav class="bg-gray-800 text-white">
+        <ul class="container mx-auto p-4 flex justify-around">
+            <li><a href="#introduction" class="hover:underline">Introduction</a></li>
+            <li><a href="#projects" class="hover:underline">Projects</a></li>
+            <li><a href="#education" class="hover:underline">Education</a></li>
+            <li><a href="#contact" class="hover:underline">Contact</a></li>
         </ul>
     </nav>
-    <main class="container">
-        <section id="introduction">
-            <h2>Introduction</h2>
-            <p>Hi, I'm Mohamed Irfan Karukappadath, a passionate web developer and researcher currently studying Computer Science and Economics at NYU. Welcome to my portfolio!</p>
+    <main class="container mx-auto p-6">
+        <section id="introduction" class="my-12">
+            <h2 class="text-3xl font-semibold mb-4">Introduction</h2>
+            <p class="text-lg text-gray-700">Hi, I'm Mohamed Irfan Karukappadath, a passionate web developer and researcher currently studying Computer Science and Economics at NYU. Welcome to my portfolio!</p>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>UNSW - Summer Research Assistant</h3>
-                <p>Using Large Language Models to evaluate medical manuscripts (June 2024 - Present).</p>
+        <section id="projects" class="my-12">
+            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-bold">UNSW - Summer Research Assistant</h3>
+                    <p class="text-gray-700">Using Large Language Models to evaluate medical manuscripts (June 2024 - Present).</p>
+                </div>
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-bold">New York University - Machine Learning Research Assistant</h3>
+                    <p class="text-gray-700">Engaged in bio-photonics research, specializing in optical imaging techniques and machine learning models for tissue classification (August 2023 - June 2024).</p>
+                </div>
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-2xl font-bold">qlub - Product & Data Intern</h3>
+                    <p class="text-gray-700">Conducted market research on QR code technology adoption and developed a dashboard for restaurant revenue insights (June 2023 - September 2023).</p>
+                </div>
             </div>
-            <div class="project">
-                <h3>New York University - Machine Learning Research Assistant</h3>
-                <p>Engaged in bio-photonics research, specializing in optical imaging techniques and machine learning models for tissue classification (August 2023 - June 2024).</p>
-            </div>
-            <div class="project">
-                <h3>qlub - Product & Data Intern</h3>
-                <p>Conducted market research on QR code technology adoption and developed a dashboard for restaurant revenue insights (June 2023 - September 2023).</p>
-            </div>
-            <!-- Add more projects as needed -->
         </section>
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
+        <section id="education" class="my-12">
+            <h2 class="text-3xl font-semibold mb-4">Education</h2>
+            <ul class="list-disc list-inside text-lg text-gray-700">
                 <li>Bachelor of Science in Computer Science, New York University Abu Dhabi (2022 - 2026)</li>
                 <li>CBSE-Grade 12, Holy Grace Academy, Mala (2020 - 2022)</li>
                 <li>CBSE- Grade 10, Aura Edify Global School (2017 - 2020)</li>
                 <li>IGCSE, Modern International School Bangkok (2013 - 2017)</li>
             </ul>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:irfan20.misb@gmail.com">irfan20.misb@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/mirfank">linkedin.com/in/mirfank</a></p>
+        <section id="contact" class="my-12">
+            <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+            <p class="text-lg text-gray-700">Email: <a href="mailto:irfan20.misb@gmail.com" class="text-blue-500 hover:underline">irfan20.misb@gmail.com</a></p>
+            <p class="text-lg text-gray-700">LinkedIn: <a href="https://www.linkedin.com/in/mirfank" class="text-blue-500 hover:underline">linkedin.com/in/mirfank</a></p>
         </section>
     </main>
-    <footer>
-        <div class="container">
+    <footer class="bg-gray-800 text-white text-center p-6">
+        <div class="container mx-auto">
             <p>&copy; 2024 Mohamed Irfan Karukappadath</p>
         </div>
     </footer>
