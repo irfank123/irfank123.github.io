@@ -3,66 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Irfan Karukappadath Portfolio</title>
-    <link href="styles.css" rel="stylesheet">
+    <title>Mohamed Irfan Karukappadath</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-900">
-    <header class="bg-white shadow-md">
-        <div class="container mx-auto p-6 text-center">
-            <h1 class="text-4xl font-bold">Mohamed Irfan Karukappadath</h1>
-            <p class="text-lg text-gray-600">Computer Science & Economics at NYU</p>
-        </div>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#hero" class="nav-logo">MIK</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#research" class="nav-link">Research</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
-    <nav class="bg-gray-800 text-white">
-        <ul class="container mx-auto p-4 flex justify-around">
-            <li><a href="#introduction" class="hover:underline">Introduction</a></li>
-            <li><a href="#projects" class="hover:underline">Projects</a></li>
-            <li><a href="#education" class="hover:underline">Education</a></li>
-            <li><a href="#contact" class="hover:underline">Contact</a></li>
-        </ul>
-    </nav>
-    <main class="container mx-auto p-6">
-        <section id="introduction" class="my-12">
-            <h2 class="text-3xl font-semibold mb-4">Introduction</h2>
-            <p class="text-lg text-gray-700">Hi, I'm Mohamed Irfan Karukappadath, a passionate web developer and researcher currently studying Computer Science and Economics at NYU. Welcome to my portfolio!</p>
-        </section>
-        <section id="projects" class="my-12">
-            <h2 class="text-3xl font-semibold mb-4">Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="bg-white p-6 shadow-md rounded-lg">
-                    <h3 class="text-2xl font-bold">UNSW - Summer Research Assistant</h3>
-                    <p class="text-gray-700">Using Large Language Models to evaluate medical manuscripts (June 2024 - Present).</p>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-image-container">
+                    <div class="hero-image-placeholder"></div>
                 </div>
-                <div class="bg-white p-6 shadow-md rounded-lg">
-                    <h3 class="text-2xl font-bold">New York University - Machine Learning Research Assistant</h3>
-                    <p class="text-gray-700">Engaged in bio-photonics research, specializing in optical imaging techniques and machine learning models for tissue classification (August 2023 - June 2024).</p>
-                </div>
-                <div class="bg-white p-6 shadow-md rounded-lg">
-                    <h3 class="text-2xl font-bold">qlub - Product & Data Intern</h3>
-                    <p class="text-gray-700">Conducted market research on QR code technology adoption and developed a dashboard for restaurant revenue insights (June 2023 - September 2023).</p>
+                <div class="hero-text">
+                    <h1 class="hero-title">Mohamed Irfan Karukappadath</h1>
+                    <p class="hero-subtitle">Computer Science & Mathematics Student | Aspiring Quantitative Analyst</p>
+                    <p class="hero-status">NYU Abu Dhabi Class of 2026</p>
+                    <div class="hero-buttons">
+                        <a href="#experience" class="btn btn-primary">View Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="education" class="my-12">
-            <h2 class="text-3xl font-semibold mb-4">Education</h2>
-            <ul class="list-disc list-inside text-lg text-gray-700">
-                <li>Bachelor of Science in Computer Science, New York University Abu Dhabi (2022 - 2026)</li>
-                <li>CBSE-Grade 12, Holy Grace Academy, Mala (2020 - 2022)</li>
-                <li>CBSE- Grade 10, Aura Edify Global School (2017 - 2020)</li>
-                <li>IGCSE, Modern International School Bangkok (2013 - 2017)</li>
-            </ul>
+
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>As a driven student of Computer Science and Finance, I am passionate about leveraging technology to solve complex financial challenges. My academic journey is supported by a significant scholarship achievement of over USD 320,000, which fuels my commitment to excellence.</p>
+            <p>I am fluent in English, Malayalam, Hindi, and Thai, which has enriched my global perspective. Outside of academics, my interests include football, travelling, gardening, and cars, which provide a well-rounded balance to my technical pursuits.</p>
         </section>
-        <section id="contact" class="my-12">
-            <h2 class="text-3xl font-semibold mb-4">Contact</h2>
-            <p class="text-lg text-gray-700">Email: <a href="mailto:irfan20.misb@gmail.com" class="text-blue-500 hover:underline">irfan20.misb@gmail.com</a></p>
-            <p class="text-lg text-gray-700">LinkedIn: <a href="https://www.linkedin.com/in/mirfank" class="text-blue-500 hover:underline">linkedin.com/in/mirfank</a></p>
+
+        <section id="education" class="content-section">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>New York University Abu Dhabi</h3>
+                <p>Bachelor of Science in Computer Science and Mathematics</p>
+                <p><i>Graduation: May 2026</i></p>
+                <p>Key achievements: Full scholarship (USD 320,000+), research grants ($9,000).</p>
+                <p>Relevant Coursework: Data Structures, Algorithms, Calculus, Linear Algebra.</p>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <h2>Experience</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Verition Fund Management</h3>
+                    <p><b>Summer Intern</b> | Dubai, UAE (Summer 2025)</p>
+                    <p>Developed volatility modeling pipeline analyzing 3.4M+ observations, improving forecasting accuracy by 40%. Technologies: Python, Signal Optimization, Multi-threading.</p>
+                </div>
+                <div class="card">
+                    <h3>Ujala Life Clinic</h3>
+                    <p><b>Software Engineering Intern</b> | New York, USA (Jan-May 2025)</p>
+                    <p>Automated data pipelines using Google Cloud Run, reducing report generation time by 80%.</p>
+                </div>
+                <div class="card">
+                    <h3>Qlub Australia</h3>
+                    <p><b>Product and Data Intern</b> | Sydney, Australia (Summer 2023)</p>
+                    <p>Built analytics dashboard processing 50,000+ daily transactions, improving decision response time by 40%.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="content-section">
+            <h2>Research</h2>
+             <div class="card-grid">
+                <div class="card">
+                    <h3>Spine Labs at UNSW (Summer 2024)</h3>
+                    <p>Processed 1,200+ medical manuscripts with 95% accuracy and led LLM architecture evaluation.</p>
+                </div>
+                <div class="card">
+                    <h3>NYU Abu Dhabi Bio-photonics Lab (2023-2024)</h3>
+                    <p>Developed ML models with 98% accuracy for tissue classification, co-authored a conference publication, and was invited to present at Harvard University.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="leadership" class="content-section">
+            <h2>Leadership</h2>
+            <div class="card">
+                <h3>Business and Finance Society - Vice President</h3>
+                <p>Organized mentorship programs and industry networking events. Conducted 50+ one-on-one sessions, with 70+ students per event.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="content-section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <h4>Programming</h4>
+                    <p>Python, C++, JavaScript, SQL, MATLAB</p>
+                </div>
+                <div>
+                    <h4>Cloud Platforms</h4>
+                    <p>Google Cloud Platform, AWS Lambda</p>
+                </div>
+                <div>
+                    <h4>Tools</h4>
+                    <p>Git, HPC, Microsoft Suite</p>
+                </div>
+                <div>
+                    <h4>Specializations</h4>
+                    <p>Machine Learning, Data Analytics, Financial Modeling</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2>Projects</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Project 1</h3>
+                    <p>Brief description of the project. Technologies used. Key outcomes. <a href="#">Link to GitHub</a></p>
+                </div>
+                <div class="card">
+                    <h3>Project 2</h3>
+                    <p>Brief description of the project. Technologies used. Key outcomes. <a href="#">Link to Demo</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <p>"Let's connect" messaging.</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:irfan.k@nyu.edu">irfan.k@nyu.edu</a></p>
+                <p>Phone: +971 5678 35 082</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/mirfank" target="_blank">linkedin.com/in/mirfank</a></p>
+                <p>Location: Abu Dhabi, UAE | New York, USA</p>
+            </div>
         </section>
     </main>
-    <footer class="bg-gray-800 text-white text-center p-6">
-        <div class="container mx-auto">
-            <p>&copy; 2024 Mohamed Irfan Karukappadath</p>
-        </div>
+
+    <footer>
+        <p>&copy; 2024 Mohamed Irfan Karukappadath</p>
     </footer>
+
     <script src="scripts.js"></script>
 </body>
 </html>
